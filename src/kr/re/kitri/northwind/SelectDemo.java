@@ -50,9 +50,9 @@ public class SelectDemo {
                 System.out.println(rs.getString(6));
             }
 
-            System.out.println("INSERT OK");
-
             conn.close();
+
+            System.out.println("INSERT OK");
 
         } catch (SQLException e) {
             e.printStackTrace();
